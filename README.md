@@ -5,4 +5,4 @@ I decided to build my Tic Tac Toe game from scratch as a way to learn some new t
 
 In particular, I want to learn to use the following:
 - SASS
-- A Task Runner, such as Grunt Gulp or Broccoli (I want to try Broccoli)
+- A Task Runner, such as Grunt Gulp or Broccoli
