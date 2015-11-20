@@ -1,0 +1,124 @@
+/* STYLE SHEET FOR TIC TAC TOE */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+    font-size: 1em;
+    color: gray;
+}
+
+h2 {
+    font-size: 32pt;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1em;
+    width: 30em;
+    height: 30em;
+    margin: 0;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.square {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border: solid 1px gray;
+}
+
+.square:hover {
+    background-color: #EBEBEB;
+    cursor: pointer;
+}
+
+.winSquare_X {
+    background-color: #7db136;
+    color: white;
+}
+
+.winSquare_X:hover {
+    background-color: #699a27;
+}
+
+.winSquare_O {
+  background-color: #FD6641;
+  color: white;
+}
+
+.winSquare_O:hover {
+    background-color: #D15435;
+}
+
+h1 {
+    font-size: 32pt;
+    padding: 0;
+    margin: 0;
+}
+
+#restart {
+    display: none;
+    padding: 0.5em;
+    margin-left: 1em;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper {
+        width: 30em;
+        height: 30em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 20em;
+        height: 20em;
+        padding: 0.7em;
+    }
+
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .wrapper {
+        width: 15em;
+        height: 15em;
+        padding: 0.4em;
+    }
+
+    h2 {
+        font-size: 21pt;
+    }
+}
