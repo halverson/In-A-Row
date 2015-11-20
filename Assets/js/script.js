@@ -8,7 +8,7 @@ $(document).ready(function () {
         winState = false,
         drawState = false,
         n = 3, //number of squares per side. Change this to change size of board and the number of tokens in a row required to win.
-        board = [];
+        board = []; //empty array for the board
 
     function createBoard () {
         //Generate internal representation of the board to store token positions.
